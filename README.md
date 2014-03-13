@@ -1,35 +1,35 @@
-Namecoin
-===================
+Election Voting Platform
+=================
 
-Namecoin is a decentralized key/value registration and transfer system based on Bitcoin technology (a decentralized cryptocurrency).
+Intro
+=================
 
-It can be used for multiple purposes, for example a secure and censorship resistant replacement for DNS.
+We currently live in a world where we can do almost anything we want with a mobile phone but we still vote for our elected officials using a paper and pencil. There are many reasons for why this is the case but it's about time we eliminate these reasons and create a modern digital voting platform. There is no better way to do this then to tap into the Github community.
 
-Ownership of a name is based on ownership of a coin, which is in turn based on public key cryptography.  The namecoin network reaches consensus every few minutes as to which names have been reserved or updated.
+Task
+================
 
-There is a FAQ.md to answer some general questions.
+The current US voting system in place is ancient and not secure. Voter fraud is rampant, officials want to restrict certain people from voting, and we live in the 21st century yet we vote like its the 18th century; it's about time we make a change. The purpose of this project is to initiate this change. If the US government isn't going to start a Github project dedicated to it then we will and submit it to them when its ready.
 
-See http://namecoin.info or http://dot-bit.org for more information.
+Namecoin Protocol
+================
 
+Most of you are aware of the power of the Bitcoin protocol as a means to verify digital transactions. The plan is to piggyback on the Namecoin protocol but to customize it for election voting. This will be challenging but having the protocol already implemented in many ways helps us to pick and choose what methods work best for this particular situation.
 
-Technical
-=====================
+I hope you will join me in helping create a digital voting platform we can finally trust and use in our elections.
 
-The Bitcoin protocol is augmented with namecoin operations, to reserve, register and update names.  In addition to DNS like entries, arbitrary name/value pairs are allowed and multiple namespaces will be available.  This will include a personal handle namespace mapping handles to public keys and personal address data.
+Contributing
+================
 
-The protocol differences from bitcoin include:
+We encourage you to contribute to this project!
 
-* Different blockchain, port, IRC bootstrap and message header
-* New transaction types: new, first-update, update
-* Validation on the new transaction types
-* RPC calls for managing names
-* Network fees to slow down the initial rush
+*Note: This is intended to fix the current US voting system but if applicable can be used to improve other government's voting systems as well.
 
-Please read DESIGN-namecoind.md for details.
+License
+================
 
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-BUILDING
-======================
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
-Building is supported on Linux, Windows and Mac. For building on windows you can use the scripts in ./contrib/easywinbuilder. Find build instructions on http://dot-bit.org.
-
+You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/.
