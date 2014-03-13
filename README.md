@@ -1,4 +1,4 @@
-Election Voting Platform
+VoteID
 =================
 
 Intro
